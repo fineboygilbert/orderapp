@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Orderapp",
+    "slug": "orderapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ggiliaro.orderapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ggiliaro.orderapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7b4b541e-4b4e-4d7e-ac2b-d6a25c27d0af"
+      }
+    },
+    "owner": "ggiliaro",
+    "updates": {
+      "url": "https://u.expo.dev/7b4b541e-4b4e-4d7e-ac2b-d6a25c27d0af"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
